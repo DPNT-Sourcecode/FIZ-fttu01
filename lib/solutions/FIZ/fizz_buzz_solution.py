@@ -16,7 +16,7 @@ def fizz_buzz(number):
     one = 'fizz'
     butNotTheOther = 'buzz'
 
-    if not ((number % 3) and (number % 5)):
+    if not ((number % 3) or (number % 5)):
         return both
     elif not number % 3:
         return one
@@ -26,3 +26,4 @@ def fizz_buzz(number):
         return str(number)
 
     '''raise NotImplementedError()'''
+
