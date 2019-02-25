@@ -10,13 +10,14 @@ def compute(x, y):
      >>> sumR1 (0, 100) --> 60
      '''
 
-    if x in range(0.101) and y in range(0, 101):
+    if x in range(0,101) and y in range(0, 101):
         print x + y
     else:
         print 'Input out of range'
 
 
     '''raise NotImplementedError() '''
+
 
 
 
