@@ -12,8 +12,9 @@ def fizz_buzz(number):
     >>> fizz_buzz (15) --> 'fizz buzz'
     '''
 
-    if number
+    if number % 3 
 
     raise NotImplementedError()
+
 
 
