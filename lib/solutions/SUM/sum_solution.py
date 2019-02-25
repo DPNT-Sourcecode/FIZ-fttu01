@@ -11,13 +11,9 @@ def compute(x, y):
      '''
 
     if x in range(0,101) and y in range(0, 101):
-        print x + y
+        return x + y
     else:
         print 'Input out of range'
 
 
     '''raise NotImplementedError() '''
-
-
-
-
