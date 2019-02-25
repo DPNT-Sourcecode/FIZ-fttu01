@@ -30,7 +30,8 @@ def fizz_buzz(number):
     if len(msg) > 4:
         return both
     else:
-        return msg
+        return str(number)
 
     '''raise NotImplementedError()'''
+
 
