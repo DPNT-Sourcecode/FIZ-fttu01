@@ -16,6 +16,6 @@ def compute(x, y):
         print 'Input out of range'
 
 
-    '''raise NotImplementedError()
+    '''raise NotImplementedError() '''
 
 
