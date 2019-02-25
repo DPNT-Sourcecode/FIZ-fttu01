@@ -16,18 +16,13 @@ def fizz_buzz(number):
     one = 'fizz'
     butNotTheOther = 'buzz'
 
-    if (number % 3 =0) and (number % 5 =0):
+    if not ((number % 3) and (number % 5)):
         return both
-    elif number % 3 =0:
+    elif not number % 3:
         return one
-    elif number % 3 =0:
+    elif not number % 5:
         return butNotTheOther
     else:
         return str(number)
 
     '''raise NotImplementedError()'''
-
-
-
-
-
