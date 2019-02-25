@@ -1,4 +1,7 @@
 # noinspection PyShadowingBuiltins,PyUnusedLocal
+def compute(x, y):
+    raise NotImplementedError()
+
 def sumR1(Int1,Int2):
     '''
 
@@ -14,3 +17,4 @@ def sumR1(Int1,Int2):
         print Int1+Int2
     else:
         print 'Input out of range'
+
