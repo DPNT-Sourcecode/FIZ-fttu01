@@ -12,9 +12,8 @@ def hello(friend_name):
      >>> hello ('Bob') --> 'Hello Bob'
      >>> sumR1 ('Alice') --> 'Hello Alice'
      '''
-    msg ='Hello, World!'
-    return msg
+    msg ='Hello, '
+    screamer ='!'
+    return msg+friend_name+screamer
 
     '''raise NotImplementedError()'''
-
-
