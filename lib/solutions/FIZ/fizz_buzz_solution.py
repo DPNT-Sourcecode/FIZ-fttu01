@@ -7,11 +7,13 @@ def fizz_buzz(number):
     :param Int2: Integer between 0 and 100 inclusive
     :return: string
 
-    >>> fizz_buzz (3) --> 60
-    >>> sumR1 (0, 100) --> 60
+    >>> fizz_buzz (3) --> 'fizz'
+    >>> fizz_buzz (5) --> 'buzz'
+    >>> fizz_buzz (15) --> 'fizz buzz'
     '''
 
-
+    if number
 
     raise NotImplementedError()
+
 
