@@ -13,7 +13,8 @@ def fizz_buzz(number):
     '''
 
     both = 'fizz buzz'
-    one 
+    one = 'fizz'
+    butNotTheOther = 'buzz'
 
     if (number % 3 =0) and (number % 5 =0):
         return both
@@ -24,7 +25,8 @@ def fizz_buzz(number):
     else:
         return str(number)
 
-    raise NotImplementedError()
+    '''raise NotImplementedError()'''
+
 
 
 
