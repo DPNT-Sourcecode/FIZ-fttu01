@@ -12,9 +12,20 @@ def fizz_buzz(number):
     >>> fizz_buzz (15) --> 'fizz buzz'
     '''
 
-    if number % 3 
+    both = 'fizz buzz'
+    one 
+
+    if (number % 3 =0) and (number % 5 =0):
+        return both
+    elif number % 3 =0:
+        return one
+    elif number % 3 =0:
+        return butNotTheOther
+    else:
+        return str(number)
 
     raise NotImplementedError()
+
 
 
 
