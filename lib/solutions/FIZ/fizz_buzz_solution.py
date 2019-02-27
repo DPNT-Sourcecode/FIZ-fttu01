@@ -40,7 +40,7 @@ def fizz_buzz(number):
         else:
             msg = both + poshFrocks
 
-    if len(msg) == 10:
+    if len(msg) == 6:
         return msg
     elif len(msg) > 4 and len(msg) < 10:
         return both
@@ -70,5 +70,6 @@ def singleNum(number):
     return len(str(number).strip(num)) == 0
 
     '''raise NotImplementedError()'''
+
 
 
