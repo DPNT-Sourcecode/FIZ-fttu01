@@ -17,35 +17,28 @@ def fizz_buzz(number):
     butNotTheOther = 'buzz'
     poshFrocks = ' deluxe'
     msg = ''
-    theFinalFrontier
+    theFinalFrontier ' '
 
     ''' Test for divisible by 3 or contains 3 '''
-    if not (number % 3):
-        msg = one
-    elif '3' in str(number):
+    if (not (number % 3)) or ('3' in str(number)):
         msg = one
 
     ''' Test for divisible by 5 or contains 5 '''
-    if not (number % 5):
-        msg = msg + butNotTheOther
-    elif '5' in str(number):
-        msg = msg + butNotTheOther
+    if (not (number % 5)) or ('5' in str(number)):
+        if msg == '':
+            msg = butNotTheOther
+        else:
+            msg = msg + theFinalFrontier + butNotTheOther
 
     ''' Test for bigger than ten and number made
     up of the same character repeated '''
     if number > 10 and singleNum(number):
         if len(msg) == 0:
             msg = poshFrocks
-        elif len(msg) == 4:
-            msg = msg + poshFrocks
         else:
-            msg = both + poshFrocks
+            msg = msg + theFinalFrontier + poshFrocks
 
-    if len(msg) == 7:
-        return msg.strip(' ')
-    elif len(msg) > 4 and len(msg) < 10:
-        return both
-    elif len(msg) == 4:
+    if len(msg) > 0:
         return msg
     else:
         return str(number)
@@ -71,3 +64,4 @@ def singleNum(number):
     return len(str(number).strip(num)) == 0
 
     '''raise NotImplementedError()'''
+
