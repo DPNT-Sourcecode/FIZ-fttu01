@@ -12,10 +12,10 @@ def fizz_buzz(number):
     >>> fizz_buzz (5555) --> 'buzz deluxe'
     '''
 
-    both = 'fizz buzz'
+    both = 'fizz buzz '
     one = 'fizz'
     butNotTheOther = 'buzz'
-    poshFrocks = ' deluxe'
+    poshFrocks = 'deluxe'
     msg = ''
 
     ''' Test for divisible by 3 or contains 3 '''
@@ -70,6 +70,7 @@ def singleNum(number):
     return len(str(number).strip(num)) == 0
 
     '''raise NotImplementedError()'''
+
 
 
 
