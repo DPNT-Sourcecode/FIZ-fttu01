@@ -8,7 +8,8 @@ def fizz_buzz(number):
     >>> fizz_buzz (5) --> 'buzz'
     >>> fizz_buzz (15) --> 'fizz buzz'
     >>> fizz_buzz (333) --> 'fizz deluxe'
-    >>> fizz_buzz (555) --> 'buzz deluxe'
+    >>> fizz_buzz (555) --> 'fizz buzz deluxe'
+    >>> fizz_buzz (5555) --> 'buzz deluxe'
     '''
 
     both = 'fizz buzz'
@@ -32,7 +33,9 @@ def fizz_buzz(number):
     ''' Test for bigger than ten and number made
     up of the same character repeated '''
     if number > 10 and singleNum(number):
-        if len(msg) == 4:
+        if len(msg) == 0:
+            msg = poshFrocks
+        elif len(msg) == 4:
             msg = msg + poshFrocks
         else:
             msg = both + poshFrocks
@@ -67,3 +70,4 @@ def singleNum(number):
     return len(str(number).strip(num)) == 0
 
     '''raise NotImplementedError()'''
+
