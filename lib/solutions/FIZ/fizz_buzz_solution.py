@@ -71,9 +71,3 @@ def singleNum(number):
     return len(str(number).strip(num)) == 0
 
     '''raise NotImplementedError()'''
-
-
-
-
-
-
